@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_02\main.cpp(16,11): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_02\main.cpp(21,36): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Ejercicio_02.vcxproj -> C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_02\x64\Debug\Ejercicio_02.exe

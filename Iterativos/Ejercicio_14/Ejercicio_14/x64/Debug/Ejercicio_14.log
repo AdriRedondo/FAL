@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_14\main.cpp(21,26): warning C4244: '=': conversión de '_Ty' a 'int'; posible pérdida de datos
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_14\main.cpp(21,26): warning C4244:         with
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_14\main.cpp(21,26): warning C4244:         [
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_14\main.cpp(21,26): warning C4244:             _Ty=__int64
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_14\main.cpp(21,26): warning C4244:         ]
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_14\main.cpp(33,33): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Ejercicio_14.vcxproj -> C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_14\x64\Debug\Ejercicio_14.exe

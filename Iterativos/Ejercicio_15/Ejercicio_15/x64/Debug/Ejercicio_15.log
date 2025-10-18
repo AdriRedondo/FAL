@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_15\main.cpp(17,16): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_15\main.cpp(60): warning C4715: 'resuelveCaso': no todas las rutas de acceso de control devuelven un valor
+  Ejercicio_15.vcxproj -> C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_15\x64\Debug\Ejercicio_15.exe

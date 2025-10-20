@@ -6,33 +6,40 @@
 #include <iomanip>
 #include <fstream>
 #include <vector>
-#include <climits>
 using namespace std;
 
 
-void resolver(int & num, int & max , int & repeticiones) {
-
-    cin >> num;
-    if (num > max) {
-        max = num;
-        repeticiones = 1;
+void resolver(vector <int>& datos) {
+    int max = datos[0];
+    int count = 1;
+    if (datos.size() > 1) {
+        for (int i = 1; i < datos.size(); i++)
+        {
+            if (datos[i] > max) {
+                max = datos[i];
+                count = 1;
+            }
+            else if (datos[i] == max)count++;
+        }
     }
-    else if (num == max)repeticiones++;
-    
+    cout << max << " " << count << "\n";
+
 }
 
 
 void resuelveCaso() {
 
-    int num, max, repeticiones = 0;
+    vector <int> datos;
+    int entrada;
+    int i = 0;
+    cin >> entrada;
+    while (entrada != 0) {
+        datos.push_back(entrada);
+        i++;
+        cin >> entrada;
+    }
+    resolver(datos);
     
-    cin >> num;
-    max = num;
-    repeticiones++;
-   
-    while(num != 0)resolver(num, max, repeticiones);
-
-    cout << max << " " << repeticiones << '\n';
 
 }
 

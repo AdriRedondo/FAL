@@ -11,33 +11,28 @@ using namespace std;
 
 
 int resolver(vector<int>& datos) {
+    if (datos.empty())return 0;
 
-    int inicio = datos[0];
+    int inicio = 0;
     int tam = 1;
     int maxTam = 1;
     bool repetido = false;
 
     for (int i = 1; i < datos.size(); i++)
     {
-        if (datos[i] < inicio) {
-            tam++;
+        if (datos[i] < datos[inicio]) {
+            tam = i-inicio+1;
 
         }
-        else if (datos[i] == inicio) {
-            if (!repetido) {
-                tam++;
-                repetido = true;
-            }
-            else {
-                repetido = false;
-                tam = 1;
-            }
-        }
         else {
-            inicio = datos[i];
+            if(datos[inicio] >= datos[i]) {
+                tam = i - inicio + 1;
+                if (tam > maxTam) maxTam = tam;
+            }
+            
+            inicio = i;
             tam = 1;
         }
-        if (tam > maxTam)maxTam = tam;
     }
 
 

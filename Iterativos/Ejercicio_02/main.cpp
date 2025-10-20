@@ -15,7 +15,7 @@ int resolver(vector<string>& datos, string &nacionalidad) {
     int ganador = -1;
     int i = datos.size() - 1;
     bool encontrado = false;
-    while (i > 0 && encontrado == false)
+    while (i >= 0 && !encontrado)
     {
         if (datos[i] == nacionalidad) {
             ganador = datos.size() - i;

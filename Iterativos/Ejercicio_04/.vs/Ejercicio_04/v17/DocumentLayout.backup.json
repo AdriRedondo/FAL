@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mfred\\Documents\\ADRIAN\\UNI\\FAL\\FAL\\Iterativos\\Ejercicio_04\\",
+  "WorkspaceRootPath": "C:\\Users\\mfred\\Documents\\UNI\\FAL\\Ejercicios\\FAL\\Iterativos\\Ejercicio_04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{701AAF9A-8F9B-40CF-B578-9A444E3321E8}|Ejercicio_04.vcxproj|C:\\Users\\mfred\\Documents\\ADRIAN\\UNI\\FAL\\FAL\\Iterativos\\Ejercicio_04\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{701AAF9A-8F9B-40CF-B578-9A444E3321E8}|Ejercicio_04.vcxproj|C:\\Users\\mfred\\Documents\\UNI\\FAL\\Ejercicios\\FAL\\Iterativos\\Ejercicio_04\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{701AAF9A-8F9B-40CF-B578-9A444E3321E8}|Ejercicio_04.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\mfred\\Documents\\ADRIAN\\UNI\\FAL\\FAL\\Iterativos\\Ejercicio_04\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\mfred\\Documents\\UNI\\FAL\\Ejercicios\\FAL\\Iterativos\\Ejercicio_04\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\mfred\\Documents\\ADRIAN\\UNI\\FAL\\FAL\\Iterativos\\Ejercicio_04\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mfred\\Documents\\UNI\\FAL\\Ejercicios\\FAL\\Iterativos\\Ejercicio_04\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-16T15:58:45.573Z",
               "EditorCaption": ""

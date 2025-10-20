@@ -13,29 +13,28 @@ using namespace std;
 bool resolver(vector<int>& datos, int &C) {
 
 
-    int i = 0;
-
-    int llano= datos[i], repeticiones = 1;
     
-    if (datos.size() > 1) {
+
+    int llano= datos[0], repeticiones = 1;
+    
+    
         
-        for (i = 1; i<datos.size(); i++)
-        {
-            if (repeticiones == C)
-            {
-                if (datos[i] > llano)return true;
-            }
-            else {
-                if (datos[i] == llano)repeticiones++;
-                else {
-                    llano = datos[i];
-                    repeticiones = 1;
-                }
+    for (int i = 1; i<datos.size(); i++)
+    {
 
-            }
-
+        if (datos[i] == llano)repeticiones++;
+        else {
+            llano = datos[i];
+            repeticiones = 1;
         }
+        if (repeticiones >= C)
+        {
+            if (i + 1 < datos.size() && datos[i + 1] > llano)return true;
+        }
+        
+
     }
+    
     
     return false;
 

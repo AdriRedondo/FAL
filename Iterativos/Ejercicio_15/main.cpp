@@ -53,9 +53,9 @@ bool resuelveCaso() {
             cout << solucion[i];
         }
         cout << '\n';
-        return true;
+        
     }
-    
+    return true;
 
 }
 

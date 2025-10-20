@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_21\main.cpp(18,16): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Ejercicio_21.vcxproj -> C:\Users\mfred\Documents\ADRIAN\UNI\FAL\FAL\Iterativos\Ejercicio_21\x64\Debug\Ejercicio_21.exe
